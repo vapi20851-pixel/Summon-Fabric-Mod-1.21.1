@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "dev/askzareon/summon/client/mixin/ScreenAddWidgetAccessor": {
+      "addRenderableWidget": "method_37063(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;"
+    },
+    "dev/askzareon/summon/client/mixin/ScreenRenderMixin": {
+      "renderBackground": "Lnet/minecraft/class_442;method_25420(Lnet/minecraft/class_332;IIF)V",
+      "renderPanorama": "Lnet/minecraft/class_442;method_57728(Lnet/minecraft/class_332;F)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/askzareon/summon/client/mixin/ScreenAddWidgetAccessor": {
+        "addRenderableWidget": "method_37063(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;"
+      },
+      "dev/askzareon/summon/client/mixin/ScreenRenderMixin": {
+        "renderBackground": "Lnet/minecraft/class_442;method_25420(Lnet/minecraft/class_332;IIF)V",
+        "renderPanorama": "Lnet/minecraft/class_442;method_57728(Lnet/minecraft/class_332;F)V"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "summon",
+	"version": "1.0.0",
+	"name": "Summon",
+	"description": "Early horror mod — raw build, bugs and crashes possible. Do not enter.",
+	"authors": ["askzAreon"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.askzareon.summon.Summon"],
+		"client": ["dev.askzareon.summon.client.Client"]
+	},
+	"mixins": [
+		"summon.mixins.json",
+		{
+			"config": "summon.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
